@@ -4,12 +4,11 @@ import Login from './pages/login';
 import Dashboard from './pages/dashboard';
 import Inventory from './pages/Inventory';
 import Orders from './pages/Orders';
-import Stock Control from './pages/stockControl';
+import StockControl from './pages/stockControl';
 
 const App = () =>
   <Router>
     <div>
-      <Nav />
       <Switch>
         <Route exact path="/login" component={Login} />
         <Route exact path="/home/dashboard" component={Dashboard} />
@@ -21,6 +20,7 @@ const App = () =>
       </Switch>
     </div>
   </Router>;
+  <Navbar />
 }
 
 export default App;
