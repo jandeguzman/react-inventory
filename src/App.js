@@ -22,5 +22,4 @@ const App = () => {
   </Router>;
   <Navbar />
 }
-
 export default App;
