@@ -12,3 +12,5 @@ render() {
 		</div>
 		)
 }
+
+export default Orders;

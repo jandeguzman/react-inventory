@@ -45,6 +45,15 @@ render() {
                             </tr>
                         </thead>
                         <tbody id="inventory-table">
+
+                        <td>{this.state.productCode}</td>
+                        <td>{this.state.description}</td>
+                        <td>{this.state.SF_Box}</td>
+                        <td>{this.state.quantity}</td>
+                        <td>{this.state.wh2}</td>
+                        <td>{this.state.wh3}</td>
+                        <td>{this.state.total}</td>
+                        <td>{this.state.location}</td>
                         </tbody>
                     </table>
                 </div>
