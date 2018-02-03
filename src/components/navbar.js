@@ -23,8 +23,8 @@ class Navbar extends Component {
 
 	render() {
 		return (
-			<Container fluid>
-			<Row>
+			<container fluid>
+			<row>
 		<div class="col-xs-6 col-sm-3">
         </div>
         <div className="col-xs-6 col-sm-2" align="center" style={{"font-weight": "bold"}}>Total Stock in Warehouse 1</div>
@@ -46,7 +46,8 @@ class Navbar extends Component {
         <div className="col-xs-6 col-sm-2" id="three" style={{"background-color":"khaki"}}>
             <h1 id="delivered"></h1></div>
         <div className="col-xs-6 col-sm-1"></div>
-        </Row>
+        </row>
+        </container>
 			)
 	};
 }
