@@ -7,56 +7,23 @@ import {
     RegularCard, Table, ItemGrid , Button
 } from 'components';
 
-<<<<<<< HEAD:src/pages/orders.js
-class Orders extends Component {
 
-	state = {
-		productCode: [],
-		quantity: [],
-		month: [],
-		date: [],
-		year: [],
-	}
-	
+class Orders extends React.Component{
+
+    state = {
+        productCode: [],
+        quantity: [],
+        month: [],
+        date: [],
+        year: [],
+    }
+    
     ordersReceive = () => {
-        this.setState({productCode: this.state.productCode + input, })
+        this.setState({productCode: this.state.productCode })
     }
     orderSend = () => {
         this.setState({})
     }
-    
-}
-render() {
-	return (
-
-		<Row>
-		 <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">Enter Items Below:</div>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>Product ID</th>
-                                    <th>Quantity</th>
-                                    <th>Month</th>
-                                    <th>Date</th>
-                                    <th>Year</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>
-                                        <input id="ordersid" class="form-control" placeholder="Enter ID here"/>
-                                    </td>
-                                    <td>
-                                        <input id="ordersquantity" class="form-control" placeholder="Type in Quantity"/>
-                                    </td>
-                                    <td>
-                                        <select id="ordersmonth" class="month" name="month" form="monthform">
-                                            <option value="JAN">JAN</option>
-=======
-class Orders extends React.Component{
     render(){
         return (
             <Grid container>
@@ -74,7 +41,6 @@ class Orders extends React.Component{
                                         <input id="ordersquantity" className = "form-control" placeholder = "Type in Quantity"/> ,
                                         <select id="ordersmonth" className="month" name="month" form="monthform">
                                             <option value="">JAN</option>
->>>>>>> 6929f2250a8379ce8b9af1bc33d686b3e53c4fe8:src/views/Orders/Orders.jsx
                                             <option value="">FEB</option>
                                             <option value="">MAR</option>
                                             <option value="">APR</option>
