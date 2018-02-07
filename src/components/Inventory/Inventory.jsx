@@ -7,6 +7,26 @@ import PropTypes from 'prop-types';
 import { tableStyle } from 'variables/styles';
 
 class CustomTable extends React.Component {
+       state = {
+        productCode: [],
+        description: [],
+        SF_Box: [],
+        quantity: [],
+        wh2: [],
+        wh3: [],
+        total: [],
+        location: []
+    }
+    componentDidMount() {
+        this.tableData();
+    }
+    tableData = () => {
+        API.getInventory()
+            .then(res =>
+                this.setState({productCode: res.data, description: res.data, SF_Box: res.data, quantity: res.data, wh2: res.data, wh3: res.data, total: res.data, location: res.data})
+                )
+            .catch(err => console.log(err));
+    };
     render(){
         const { classes, tableHead, tableData, tableHeaderColor } = this.props;
         return (
