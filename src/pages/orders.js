@@ -12,6 +12,13 @@ class Orders extends Component {
 		year: [],
 	}
 	
+    ordersReceive = () => {
+        this.setState({productCode: this.state.productCode + input, })
+    }
+    orderSend = () => {
+        this.setState({})
+    }
+    
 }
 render() {
 	return (
