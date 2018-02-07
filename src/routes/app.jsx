@@ -3,7 +3,7 @@ import UserProfile from "views/UserProfile/UserProfile.jsx";
 import Inventory from "views/Inventory/Inventory.jsx";
 import Orders from "views/Orders/Orders.jsx";
 import StockControl from "views/StockControl/StockControl.jsx";
-import StockControl from "views/StockControl/Signup.jsx";
+import Signup from "views/Signup/Signup.jsx";
 
 import {
     Dashboard, Person, ContentPaste
