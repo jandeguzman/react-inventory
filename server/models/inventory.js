@@ -25,7 +25,7 @@ module.exports = function(sequelize, DataTypes) {
         },
         SF_Box: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
             validate: {
                 len: [1, 10],
                 notEmpty: true
@@ -33,7 +33,7 @@ module.exports = function(sequelize, DataTypes) {
         },
         dimension: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
             validate: {
                 len: [1, 500],
                 notEmpty: true
