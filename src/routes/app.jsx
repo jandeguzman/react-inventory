@@ -11,10 +11,10 @@ import {
 
 const appRoutes = [
     { path: "/dashboard", sidebarName: "Dashboard", navbarName: "Dashboard", icon: Dashboard, component: DashboardPage },
-    { path: "/user", sidebarName: "User Profile", navbarName: "Profile", icon: Person, component: UserProfile },
     { path: "/Inventory", sidebarName: "Inventory", navbarName: "Inventory", icon: ContentPaste, component: Inventory },
     { path: "/Orders", sidebarName: "Orders", navbarName: "Orders", icon: ContentPaste, component: Orders},
     { path: "/StockControl", sidebarName: "Stock Control", navbarName: "Stock Control", icon: ContentPaste, component: StockControl},
+    { path: "/user", sidebarName: "Create Account", navbarName: "Create Account", icon: Person, component: UserProfile },
     { path: "/signup", sidebarName: "Create User", navbarName: "Create User", icon: ContentPaste, component: Signup},
 
     { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
