@@ -17,44 +17,11 @@ class UserProfile extends React.Component{
                     <ItemGrid xs={12} sm={12} md={8}>
                         <RegularCard
                             headerColor="orange"
-                            cardTitle="Edit Profile"
-                            cardSubtitle="Complete your profile"
+                            cardTitle="Create New User"
+                            cardSubtitle="Fill in all available fields"
                             content={
                                 <div>
-                                    <Grid container>
-                                        <ItemGrid xs={12} sm={12} md={5}>
-                                            <CustomInput
-                                      
-                                                labelText="Company (disabled)"
-                                                id="company-disabled"
-                                                formControlProps={{
-                                                    fullWidth: true
-                                                }}
-                                                inputProps={{
-                                                    disabled: true
-                                                }}
-                                            />
-                                        </ItemGrid>
-                                        <ItemGrid xs={12} sm={12} md={3}>
-                                            <CustomInput
-                                                labelText="Username"
-                                                id="username"
-                                                formControlProps={{
-                                                    fullWidth: true
-                                                }}
-                                            />
-                                        </ItemGrid>
-                                        <ItemGrid xs={12} sm={12} md={4}>
-                                            <CustomInput
-                                                labelText="Email address"
-                                                id="email-address"
-                                                formControlProps={{
-                                                    fullWidth: true
-                                                }}
-                                            />
-                                        </ItemGrid>
-                                    </Grid>
-                                    <Grid container>
+                                     <Grid container>
                                         <ItemGrid xs={12} sm={12} md={6}>
                                             <CustomInput
                                                 labelText="First Name"
@@ -75,28 +42,19 @@ class UserProfile extends React.Component{
                                         </ItemGrid>
                                     </Grid>
                                     <Grid container>
-                                        <ItemGrid xs={12} sm={12} md={4}>
+                                        <ItemGrid xs={12} sm={12} md={6}>
                                             <CustomInput
-                                                labelText="City"
-                                                id="city"
+                                                labelText="Username"
+                                                id="username"
                                                 formControlProps={{
                                                     fullWidth: true
                                                 }}
                                             />
                                         </ItemGrid>
-                                        <ItemGrid xs={12} sm={12} md={4}>
+                                        <ItemGrid xs={12} sm={12} md={6}>
                                             <CustomInput
-                                                labelText="Country"
-                                                id="country"
-                                                formControlProps={{
-                                                    fullWidth: true
-                                                }}
-                                            />
-                                        </ItemGrid>
-                                        <ItemGrid xs={12} sm={12} md={4}>
-                                            <CustomInput
-                                                labelText="Postal Code"
-                                                id="postal-code"
+                                                labelText="Email address"
+                                                id="email-address"
                                                 formControlProps={{
                                                     fullWidth: true
                                                 }}
@@ -104,17 +62,24 @@ class UserProfile extends React.Component{
                                         </ItemGrid>
                                     </Grid>
                                     <Grid container>
-                                        <ItemGrid xs={12} sm={12} md={12}>
-                                            <InputLabel style={{color: '#AAAAAA'}}>About me</InputLabel>
+                                        <ItemGrid xs={12} sm={12} md={6}>
                                             <CustomInput
-                                                labelText="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."
-                                                id="about-me"
+                                                labelText="Mobile Number"
+                                                id="mobile"
+                                                formControlProps={{
+                                                    fullWidth: true
+                                                }}
+                                            />
+                                        </ItemGrid>
+                                        <ItemGrid xs={12} sm={12} md={6}>
+                                            <CustomInput
+                                                labelText="Position"
+                                                id="position"
                                                 formControlProps={{
                                                     fullWidth: true
                                                 }}
                                                 inputProps={{
-                                                    multiline: true,
-                                                    rows: 5
+                                                    disabled: false
                                                 }}
                                             />
                                         </ItemGrid>
@@ -122,7 +87,7 @@ class UserProfile extends React.Component{
                                 </div>
                             }
                             footer={
-                                <Button color="info">Update Profile</Button>
+                                <Button color="info">Create</Button>
                             }
                         />
                     </ItemGrid>
