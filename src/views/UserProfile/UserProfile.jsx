@@ -7,7 +7,7 @@ import {
     ProfileCard, RegularCard, Button, CustomInput, ItemGrid
 } from 'components';
 
-import avatar from 'assets/img/faces/omar.jpg';
+import avatar from 'assets/img/faces/sharleen.jpg';
 
 class UserProfile extends React.Component{
     render(){
@@ -104,8 +104,8 @@ class UserProfile extends React.Component{
                         <ProfileCard
                             avatar={avatar}
                             subtitle="Current User"
-                            title="Omar Patel"
-                            description="Lead Instructor"
+                            title="Sharleen Salim"
+                            description="Business Development"
                        />
                     </ItemGrid>
                 </Grid>
