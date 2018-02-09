@@ -4,6 +4,7 @@ import Inventory from "views/Inventory/Inventory.jsx";
 import Orders from "views/Orders/Orders.jsx";
 import StockControl from "views/StockControl/StockControl.jsx";
 import Signup from "views/Signup/Signup.jsx";
+import Login from "./login.js";
 
 import {
     Dashboard, Person, ContentPaste
@@ -19,5 +20,7 @@ const appRoutes = [
 
     { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
 ];
+
+<Route path="/login" exact component={Login} />
 
 export default appRoutes;
