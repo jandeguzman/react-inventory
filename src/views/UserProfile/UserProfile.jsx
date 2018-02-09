@@ -87,7 +87,7 @@ class UserProfile extends React.Component{
                                 </div>
                             }
                             footer={
-                                <Button color="info">Create</Button>
+                                <Button color="info" onClick="signUp()">Create</Button>
                             }
                         />
                     </ItemGrid>

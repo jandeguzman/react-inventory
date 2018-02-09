@@ -26,7 +26,7 @@ exports.create = function(req, res) {
 
 // register a user
 exports.signUp = function(req,res) {
-  console.log(req.body.user_name)
+  console.log("create new user button clicked")
   db.User.findAll({
     where: {username: req.body.user_name}
   }).then(function(users) {
