@@ -7,7 +7,7 @@ import {
     ProfileCard, RegularCard, Button, CustomInput, ItemGrid
 } from 'components';
 
-import avatar from 'assets/img/faces/marc.jpg';
+import avatar from 'assets/img/faces/omar.jpg';
 
 class UserProfile extends React.Component{
     render(){
@@ -96,16 +96,16 @@ class UserProfile extends React.Component{
                                 </div>
                             }
                             footer={
-                                <Button color="info" onClick="signUp()">Create</Button>
+                                <Button color="info" onClick="">Create</Button>
                             }
                         />
                     </ItemGrid>
                     <ItemGrid xs={12} sm={12} md={4}>
                         <ProfileCard
                             avatar={avatar}
-                            subtitle="CEO / CO-FOUNDER"
-                            title="Vanessa Montero"
-                            description="Pizza, it's Thursday!"
+                            subtitle="Instructor"
+                            title="Omar Patel"
+                            description="Lead Instructor at UCLAX Full Stack Program."
                             footer={
                                 <Button color="info" round>Follow</Button>
                             }
