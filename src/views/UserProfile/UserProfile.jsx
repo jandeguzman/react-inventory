@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    Grid, InputLabel,
+    Grid,
 } from 'material-ui';
 
 import {
@@ -62,7 +62,16 @@ class UserProfile extends React.Component{
                                         </ItemGrid>
                                     </Grid>
                                     <Grid container>
-                                        <ItemGrid xs={12} sm={12} md={6}>
+                                         <ItemGrid xs={12} sm={12} md={4}>
+                                            <CustomInput
+                                                labelText="Password"
+                                                id="password"
+                                                formControlProps={{
+                                                    fullWidth: true
+                                                }}
+                                            />
+                                        </ItemGrid>
+                                        <ItemGrid xs={12} sm={12} md={4}>
                                             <CustomInput
                                                 labelText="Mobile Number"
                                                 id="mobile"
@@ -71,7 +80,7 @@ class UserProfile extends React.Component{
                                                 }}
                                             />
                                         </ItemGrid>
-                                        <ItemGrid xs={12} sm={12} md={6}>
+                                        <ItemGrid xs={12} sm={12} md={4}>
                                             <CustomInput
                                                 labelText="Position"
                                                 id="position"
@@ -95,8 +104,8 @@ class UserProfile extends React.Component{
                         <ProfileCard
                             avatar={avatar}
                             subtitle="CEO / CO-FOUNDER"
-                            title="Alec Thompson"
-                            description="Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is..."
+                            title="Vanessa Montero"
+                            description="Pizza, it's Thursday!"
                             footer={
                                 <Button color="info" round>Follow</Button>
                             }
