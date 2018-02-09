@@ -103,13 +103,10 @@ class UserProfile extends React.Component{
                     <ItemGrid xs={12} sm={12} md={4}>
                         <ProfileCard
                             avatar={avatar}
-                            subtitle="Instructor"
+                            subtitle="Current User"
                             title="Omar Patel"
-                            description="Lead Instructor at UCLAX Full Stack Program."
-                            footer={
-                                <Button color="info" round>Follow</Button>
-                            }
-                        />
+                            description="Lead Instructor"
+                       />
                     </ItemGrid>
                 </Grid>
             </div>
