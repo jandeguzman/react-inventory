@@ -4222,6 +4222,19 @@ material-ui-icons@1.0.0-beta.17:
   dependencies:
     recompose "^0.26.0"
 
+material-ui-password-field@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/material-ui-password-field/-/material-ui-password-field-1.4.1.tgz#a444d4b460c8d0ae33107f7e0135f13a548a6356"
+  dependencies:
+    material-ui-toggle-icon "^0.2.1"
+    prop-types "^15.5.10"
+
+material-ui-toggle-icon@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/material-ui-toggle-icon/-/material-ui-toggle-icon-0.2.1.tgz#3f79f64bdc8826a6b69185183f30560d3dd68574"
+  dependencies:
+    prop-types "^15.5.10"
+
 material-ui@1.0.0-beta.30:
   version "1.0.0-beta.30"
   resolved "https://registry.yarnpkg.com/material-ui/-/material-ui-1.0.0-beta.30.tgz#427ec10ff62c10528b736415d71e973a4e56e04d"

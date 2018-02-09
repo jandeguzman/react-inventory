@@ -15,6 +15,7 @@ const appRoutes = [
     { path: "/StockControl", sidebarName: "Stock Control", navbarName: "Stock Control", icon: ContentPaste, component: StockControl},
     { path: "/user", sidebarName: "Create New User", navbarName: "Create New User", icon: Person, component: UserProfile },
 
+
     { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
 ];
 

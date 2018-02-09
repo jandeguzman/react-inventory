@@ -7,7 +7,23 @@ import {
     RegularCard, Table, ItemGrid , Button
 } from 'components';
 
+
 class Orders extends React.Component{
+
+    state = {
+        productCode: [],
+        quantity: [],
+        month: [],
+        date: [],
+        year: [],
+    }
+    
+    ordersReceive = () => {
+        this.setState({productCode: this.state.productCode })
+    }
+    orderSend = () => {
+        this.setState({})
+    }
     render(){
         return (
             <Grid container>
