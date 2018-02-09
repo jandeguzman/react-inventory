@@ -42,6 +42,7 @@ class Login extends React.Component{
                                             <CustomInput
                                                 labelText="Password"
                                                 id="password"
+                                                type="password"
                                                 onChange = {(event,newValue) => this.setState({password:newValue})}
                                                 formControlProps={{
                                                     fullWidth: true
@@ -52,7 +53,7 @@ class Login extends React.Component{
                                 </div>
                             }
                             footer={
-                                <Button color="info" onClick="">Login</Button>
+                                <Button color="info" href="/dashboard">Login</Button>
                             }
                         />
                     </ItemGrid>
