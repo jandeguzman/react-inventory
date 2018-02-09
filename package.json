@@ -18,11 +18,5 @@
     "react-scripts": "1.1.0",
     "req-flash": "0.0.3",
     "sequelize": "^4.32.6"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   }
 }
