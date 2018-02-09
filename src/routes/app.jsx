@@ -3,7 +3,6 @@ import UserProfile from "views/UserProfile/UserProfile.jsx";
 import Inventory from "views/Inventory/Inventory.jsx";
 import Orders from "views/Orders/Orders.jsx";
 import StockControl from "views/StockControl/StockControl.jsx";
-import Login from "./login.js";
 import {
     Dashboard, Person, ContentPaste
 } from 'material-ui-icons';
@@ -19,7 +18,5 @@ const appRoutes = [
 
     { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
 ];
-
-<Route path="/login" exact component={Login} />
 
 export default appRoutes;
