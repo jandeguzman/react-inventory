@@ -19,6 +19,7 @@ const appRoutes = [
      { path: "/login", sidebarName: "Login", navbarName: "Login", icon: Person, component: Login },
 
 
+
     { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
 ];
 

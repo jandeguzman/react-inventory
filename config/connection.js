@@ -39,7 +39,7 @@ if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: 'Calamigos2015',
+        password: '',
         database: 'tropical_inventory'
     });
 };
