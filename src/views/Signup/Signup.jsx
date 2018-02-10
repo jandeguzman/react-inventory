@@ -10,9 +10,12 @@ class CustomTable extends React.Component {
 
   // Setting the component's initial state
   state = {
-    firstName: "",
-    lastName: "",
-    password: ""
+      firstName: "",
+      lastName: "",
+      mob_no: "",
+      username: "",
+      password: "",
+      position: ""
   };
 
 handleInputChange = event => {
