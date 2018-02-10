@@ -3,6 +3,9 @@ import UserProfile from "views/UserProfile/UserProfile.jsx";
 import Inventory from "views/Inventory/Inventory.jsx";
 import Orders from "views/Orders/Orders.jsx";
 import StockControl from "views/StockControl/StockControl.jsx";
+import Login from "views/Login/Login.jsx";
+
+
 import {
     Dashboard, Person, ContentPaste
 } from 'material-ui-icons';
@@ -13,6 +16,7 @@ const appRoutes = [
     { path: "/Orders", sidebarName: "Orders", navbarName: "Orders", icon: ContentPaste, component: Orders},
     { path: "/StockControl", sidebarName: "Stock Control", navbarName: "Stock Control", icon: ContentPaste, component: StockControl},
     { path: "/user", sidebarName: "Create New User", navbarName: "Create New User", icon: Person, component: UserProfile },
+     { path: "/login", sidebarName: "Login", navbarName: "Login", icon: Person, component: Login },
 
 
 
